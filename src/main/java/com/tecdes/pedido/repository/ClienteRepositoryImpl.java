@@ -1,4 +1,4 @@
-package com.tecdes.pedido.repository;
+package com.tecdes.pedido.Repository;
 
 public class ClienteRepository {
 

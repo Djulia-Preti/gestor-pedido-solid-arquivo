@@ -1,4 +1,4 @@
-package com.tecdes.pedido.view;
+package com.tecdes.pedido.View;
 
 public class MainView {
 
