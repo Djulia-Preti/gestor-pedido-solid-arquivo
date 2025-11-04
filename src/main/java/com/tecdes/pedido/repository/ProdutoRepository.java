@@ -1,5 +1,11 @@
-package com.tecdes.pedido.repository;
+package com.tecdes.pedido.Repository;
 
-public class ProdutoRepository {
+import java.util.List;
 
+public interface ProdutoRepository {
+    void save(Produto produto);
+    Produto findById(int id);
+    List<Produto> findAll();
+    void update(Produto produto);
+    void delete(int id);
 }
