@@ -1,5 +1,5 @@
 package com.tecdes.pedido.repository;
 
-public class ClienteRepository {
+public class ClienteRepositoryImpl {
 
 }
