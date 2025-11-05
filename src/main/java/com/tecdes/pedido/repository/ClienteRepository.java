@@ -1,0 +1,10 @@
+package com.tecdes.pedido.repository;
+
+import java.util.List;
+
+import com.tecdes.pedido.model.entity.ClienteRepository;
+
+public interface ClienteRepository {
+    void salvar(Cliente cliente) ;
+    List<Cliente> buscarTodos();
+}
