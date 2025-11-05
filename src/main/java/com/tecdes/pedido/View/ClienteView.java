@@ -1,5 +1,5 @@
 package com.tecdes.pedido.view;
 
-public class MainView {
+public class ClienteView {
 
 }

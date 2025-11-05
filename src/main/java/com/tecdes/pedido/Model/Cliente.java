@@ -1,5 +1,5 @@
 package com.tecdes.pedido.model;
 
-public class Produto {
+public class Cliente {
 
 }

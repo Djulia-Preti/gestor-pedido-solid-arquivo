@@ -1,5 +1,5 @@
 package com.tecdes.pedido.repository;
 
-public class IProdutoRepository {
+public class IClienteRepository {
 
 }
