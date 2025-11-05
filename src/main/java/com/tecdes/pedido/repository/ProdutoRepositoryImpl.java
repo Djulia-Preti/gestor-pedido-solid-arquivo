@@ -2,6 +2,7 @@ package com.tecdes.pedido.repository;
 
 import java.util.List;
 
+import com.tecdes.pedido.Model.DAO.ProdutoDAO;
 import com.tecdes.pedido.Model.entity.Produto;
 
 
@@ -9,7 +10,7 @@ import com.tecdes.pedido.Model.entity.Produto;
 // Implementação que usa o DAO
 public class ProdutoRepositoryImpl implements ProdutoRepository{
     
-    private final MotoristaDAO motoristaDAO = new MotoristaDAO();
+    private final ProdutoDAO produtoDAO = new ProdutoDAO();
 
 
     @Override
