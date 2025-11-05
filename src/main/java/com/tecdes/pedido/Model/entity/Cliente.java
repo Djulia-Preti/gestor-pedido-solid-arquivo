@@ -1,4 +1,4 @@
-package com.tecdes.pedido.model;
+package com.tecdes.pedido.Model;
 
 public class Cliente {
 
