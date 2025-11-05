@@ -1,4 +1,4 @@
-package com.tecdes.pedido.Repository;
+package com.tecdes.pedido.repository;
 
 import java.util.List;
 
