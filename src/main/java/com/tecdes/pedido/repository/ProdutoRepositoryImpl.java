@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ProdutoRepositoryImpl implements ProdutoRepository {
 
-    // Método SAVE (Corrigido com @Override)
+    
     @Override
     public void save(Produto produto) {
         String sql = "INSERT INTO produto (nome, descricao, preco, categoria) VALUES (?, ?, ?, ?)";
@@ -33,7 +33,7 @@ public class ProdutoRepositoryImpl implements ProdutoRepository {
         }
     }
 
-    // Método FIND BY ID (Corrigido com @Override)
+    
     @Override
     public Produto findById(int id) {
         Produto produto = null;
@@ -59,7 +59,7 @@ public class ProdutoRepositoryImpl implements ProdutoRepository {
         return produto;
     }
 
-    // Método FIND ALL
+    
     @Override
     public List<Produto> findAll() {
         List<Produto> produtos = new ArrayList<>();
@@ -93,7 +93,7 @@ public class ProdutoRepositoryImpl implements ProdutoRepository {
             stmt.setString(2, produto.getDescricao());
             stmt.setDouble(3, produto.getPreco());
             stmt.setString(4, produto.getCategoria());
-            stmt.setInt(5, produto.getIdProduto());    // 5º ? (ESTE É O CORRETO!)            stmt.executeUpdate();
+            stmt.setInt(5, produto.getIdProduto());    
             System.out.println("Produto ID " + produto.getIdProduto() + " atualizado.");
         } catch (SQLException e) {
             e.printStackTrace();
